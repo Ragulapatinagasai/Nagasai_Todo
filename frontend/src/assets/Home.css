@@ -1,0 +1,26 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.addtask {
+    display: flex;
+    width: 79%;
+    height: fit-content;
+    border: solid gray 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.addtask>h1 {
+    margin: 5px;
+}
+
+.viewtask {
+    display: flex;
+    justify-content: center;
+    /* background-color: #F9FCFE; */
+}

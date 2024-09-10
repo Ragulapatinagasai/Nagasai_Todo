@@ -1,0 +1,77 @@
+.InputForm {
+
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.148);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainform {
+    border-radius: 10px;
+    width: 50%;
+    height: fit-content;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
+
+.mainform_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainform_head>h2 {
+    display: inline;
+}
+
+.mainform>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainform>form>div {
+    display: block;
+    margin-bottom: 0;
+}
+
+.mainform>form>div>p {
+    display: block;
+    margin-bottom: 0;
+}
+
+.mainform>form>div>select,
+textarea,
+input {
+    display: block;
+    margin-bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.mainform>form>div>textarea {
+    display: block;
+    margin-bottom: 0;
+    width: 100%;
+    min-height: 130px;
+    max-height: 130px;
+    max-width: 100%;
+}
+
+.mainform>form>.btndiv {
+    margin-top: 10px;
+    display: flex;
+}
+
+.mainform>form>.btndiv>button {
+    width: 100px;
+    background-color: #22BB33;
+    padding: 5px;
+    height: fit-content;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+}

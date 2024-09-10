@@ -1,0 +1,66 @@
+.taskCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: solid gray 3px;
+    /* height: 160px; */
+    height: fit-content;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.priority {
+    /* height: 30px; */
+    /* flex: 0.2; */
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    /* flex: 0.5; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 5px 0px;
+}
+
+.description>h2 {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.description>p {
+    margin: 0;
+    color: gray;
+}
+
+.date {
+    /* flex: 0.3; */
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.dropdown {
+    position: fixed;
+    height: fit-content;
+    width: 300px;
+    background-color: white;
+    border: solid gray 2px;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.dropdown p {
+    border-radius: 10px;
+    margin: 0;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdown p:hover {
+    background-color: #f0f0f0;
+}
