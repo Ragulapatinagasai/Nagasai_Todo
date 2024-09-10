@@ -43,7 +43,7 @@ function InputForm({ handleCloseForm, refresh2 }) {
 
     try {
       const response = await axios.post(
-        "http://localhost:8800/addTask",
+        "https://nagasai-todo-backend.onrender.com/addTask",
         formattedData,
         {
           headers: {

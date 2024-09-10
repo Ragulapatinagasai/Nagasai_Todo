@@ -13,7 +13,9 @@ function Home() {
 
   const fetchToDo = async () => {
     try {
-      const response = await axios.get("http://localhost:8800/getToDoTask");
+      const response = await axios.get(
+        "https://nagasai-todo-backend.onrender.com/getToDoTask"
+      );
       setToDoData(response.data);
     } catch (error) {
       console.error("There was an error fetching the ToDo data!", error);
@@ -23,7 +25,7 @@ function Home() {
   const fetchInprogress = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:8800/getInProgressTask"
+        "https://nagasai-todo-backend.onrender.com/getInProgressTask"
       );
       setInprogressData(response.data);
     } catch (error) {
@@ -34,7 +36,7 @@ function Home() {
   const fetchCompleted = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:8800/getCompletedTask"
+        "https://nagasai-todo-backend.onrender.com/getCompletedTask"
       );
       setCompletedData(response.data);
     } catch (error) {
